@@ -1,0 +1,10 @@
+Code review de Emin
+
+le print * 57 est inutile, affichage de caractère inutile
+Pourquoi faire un dictionaire avec cahmbre froide 1,2 et 3. Inutilisable si on ajoute d'autre chambre froide
+Tu peut faire un dictionnaire temporaire vide ou tu viens ajouter tes chambre froide au fur et a mesure après chambre = champ[2] tu viens ajouter la chambre froide en lui ajoutant un champ temperature que tu va venir lui ajouter à chaque ligne de cette chambre froide
+Trop de commentaire inutile/ pas utile
+Pourquoi le franglais pour les noms de variables ?
+Attention à tes noms de variables (temperature avec un s alors que tu en a une seule, pas une liste ou bien temp_dict, à quoi correspond temp ? temporaire j'imagine mais pas terrible)
+Attention ajouter un try catch pour float(champ[3].replace(',', '.')) au cas ou le champ du csv ne sois pas convertisable/une erreur lors de la conversion
+Possible d'améliorer la visibilité en utilisant des fonctions : une pour l'affichage statique, une pour le traitement de tes données et une avec l'affichage de tes résultats
